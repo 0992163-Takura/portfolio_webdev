@@ -1,0 +1,111 @@
+body{
+    color:rgb(255,255,255);
+    background-color: white;
+    font-family: Monospace,Times,sans-serif;
+    font-size: 15px;
+    width:90vw;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  main{
+    background-color: rgb(50,100,100);
+    border-style: solid;
+    border-color:rgb(50,80,80);
+    width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+
+  }
+  
+  main p{
+    margin-left:5px;
+  }
+  
+  header{
+      background-color: rgb(50,100,100);
+      color:white;
+      border-style: solid;
+      border-color: rgb(50,80,80);
+      border-width: 1x;
+      font-size: 1em;
+      position: relative;
+      text-align: center;
+      margin-top:10px;
+      margin-bottom:10px;
+    }
+  
+  h1{
+    background-color: rgb(50,80,80);
+    margin-top:0px;
+    margin-bottom:5px;
+    padding-bottom:5px;
+  }
+  
+  main h2{
+    position: relative;
+    color:white;
+    text-align:center;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgb(50,80,80);
+  }
+  
+  .Center{
+    text-align: center;
+  }
+  
+  a:active{
+    color:red;
+  }
+  
+  img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 500px;
+    height: 200px;
+    border-style: solid;
+    border-color: white;
+  }
+  
+  #Takura{
+    width:75vw;
+    height:300px;
+  }
+  
+  img:hover{
+    border-color:hotpink;
+  }
+  
+  nav ul, footer ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:rgb(50,100,100);
+    border-style: solid;
+    overflow:hidden;
+    border: 1px solid #555;
+  }
+  
+  li a{
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: hotpink;
+    background-color: rgb(50,80,80);
+    
+  }
+  
+  nav li, footer li {
+    display:inline;
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child{
+    border-right:none;
+  }
