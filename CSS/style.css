@@ -25,6 +25,7 @@ h1{
 
 section{
   border-top:2px solid white;
+  margin-bottom:10px;
 }
 
 main{
@@ -51,7 +52,7 @@ main h2{
   border-top:0;
 }
 
-#Hobby h2,#Mijn_werk h2{
+#Hobby h2,#Projecten h2{
   text-align:right;
   margin-left:auto;
 }
@@ -67,16 +68,7 @@ img{
   margin-left:auto;
   margin-right:auto;
   width: 20vw;
-  border-style: solid;
-  border-color: white;
-}
-
-#Takura{
-  margin-bottom: 10px;
-}
-
-#art{
-  margin-bottom: 10px;
+  border: 1px solid white;
 }
 
 #art:hover{
