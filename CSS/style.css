@@ -1,6 +1,7 @@
 body{
-  color:rgb(255,255,255);
-  background-color: white;
+  color:rgb(0, 0, 0);
+  background: rgb(187,187,187);
+  background: linear-gradient(0deg, rgba(128,128,128,1) 0%, rgba(187,187,187,1) 27%, rgba(255,255,255,1) 72%);
   font-family: Monospace,Times,sans-serif;
   font-size: 15px;
   margin-left:auto;
@@ -22,10 +23,13 @@ h1{
   padding-bottom:5px;
 }
 
+section{
+  border-top:2px solid white;
+}
+
 main{
-  background-color: rgb(217, 79, 150);
-  border-radius: 5px;
-  overflow:hidden;
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* border: solid 2px rgb(70, 70, 70); */
   width:40vw;
   margin-left:auto;
   margin-right:auto;
@@ -33,25 +37,28 @@ main{
 }
 
 main h2{
-  background-color:rgb(187, 67, 161);
-  border-bottom: 1px solid;
-  position: relative;
+  background-color:rgba(49, 49, 49);
   color:white;
-  text-align:right;
   padding: 10px;
-  margin-left:auto;
-  margin-right:auto;
   margin-bottom:5px;
   margin-top:0px;
+  width: 20vw;
+  border: 1px solid white;
+  border-top:0;
 }
 
 #Intro{
-  margin:0;
+  border-top:0;
+}
+
+#Hobby h2,#Mijn_werk h2{
+  text-align:right;
+  margin-left:auto;
 }
 
 main p{
   margin-left:5px;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -61,7 +68,7 @@ img{
   margin-right:auto;
   width: 20vw;
   border-style: solid;
-  border-color: rgb(153, 53, 142);
+  border-color: white;
 }
 
 #Takura{
@@ -73,7 +80,7 @@ img{
 }
 
 #art:hover{
-  border-color:white;
+  border-color:rgb(25, 250, 212);
 }
 
 nav ul, footer ul{
@@ -81,18 +88,18 @@ nav ul, footer ul{
   margin-left: auto;
   margin-right: auto;
   padding:0;
-  background-color:rgb(187, 67, 161);
+  background-color:rgba(187, 67, 117, 0.75);
   overflow:hidden;
   /* border: 1px solid black; */
   border-radius: 5px;
 }
 
 nav ul{
-  width: 36vw;
+  width: 555px;
 }
 
 footer ul{
-  width:20vw;
+  width:305px;
 }
 
 nav li, footer li {
@@ -124,7 +131,7 @@ a:active{
   text-align: center;
 }
 
-.Whitespace{
-  background-color: white;
+/* .Whitespace{
+  background-color: rgba(255, 255, 255, 0.219);
   margin:0px;
-}
+} */
